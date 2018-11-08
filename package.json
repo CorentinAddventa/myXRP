@@ -1,0 +1,23 @@
+{
+  "name": "myXRP",
+  "version": "1.0.0",
+  "description": "myXRP project",
+  "scripts": {
+    "start": "npm run serve",
+    "build": "npm run build-ts",
+    "serve": "node dist/server.js",
+    "build-ts": "tsc",
+    "test": "jest --forceExit --verbose"
+  },
+  "keywords": [],
+  "author": "Corentin Gaillard",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.11.1",
+    "typescript": "^2.8.3"
+  }
+}
